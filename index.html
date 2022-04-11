@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/stele.css">
+    <title>Калькулятор_V2</title>
+</head>
+<body>
+
+    <main id="calculator">
+        <section id="display">
+            <input type="text" id="history" value="" disabled>
+            <output name="result" id="result" for="history">0</output>
+        </section>
+        <section id="keypad">
+            <button type="button" data-all-clear>C</button>
+            <button type="button" data-backspace>&#8676;</button>
+            <button type="button" data-persent>%</button>
+            <button type="button" data-operator="/" class="operator">&divide;</button>
+
+            <button type="button" data-number="7">7</button>
+            <button type="button" data-number="8">8</button>
+            <button type="button" data-number="9">9</button>
+            <button type="button" data-operator="x" class="operator">&times;</button>
+
+            <button type="button" data-number="4">4</button>
+            <button type="button" data-number="5">5</button>
+            <button type="button" data-number="6">6</button>
+            <button type="button" data-operator="-" class="operator">&minus;</button>
+
+            <button type="button" data-number="1">1</button>
+            <button type="button" data-number="2">2</button>
+            <button type="button" data-number="3">3</button>
+            <button type="button" data-operator="+" class="operator">&plus;</button>
+
+            <button type="button" data-negation>&plus;/&minus;</button>
+            <button type="button" data-number="0">0</button>
+            <button type="button" data-decimal=".">&sdot;</button>
+            <button type="button" data-equals="=" class="operator">&equals;</button>
+        </section>
+
+
+    </main>
+
+
+    
+
+
+
+
+
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
